@@ -6,13 +6,14 @@
 * [1. Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
 * [2. Prawa autorskie](#prawa-autorskie)
 * [3. Specyfikacja wymagan](#specyfikacja-wymagan)
+* [3A. Wymagania funkcjonalne](#A.-Wymagania-funkcjonalne)
 * [4. Architetura systemu](#Architektura-systemu)
 * [5. Testy](#Testy)
 * [6. Słownik pojęć](#Słownik-pojęć)
 
 ---
 
-## 1. Charakterystyka oprogramowania
+## Charakterystyka oprogramowania
 
 <b> Nazwa skrócona: </b> RolldarMobilnie
 
@@ -124,8 +125,8 @@ System
 
 ---
 
-# 5. Testy
+# Testy
 
-# 6. Słownik pojęć
+# Słownik pojęć
 
-# 7. Możliwości rozbudowy
+# Możliwości rozbudowy
