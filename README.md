@@ -12,7 +12,7 @@
 
 ---
 
-## 1.Charakterystyka oprogramowania
+## 1. Charakterystyka oprogramowania
 
 Nazwa skrócona: RolldarMobilnie
 
