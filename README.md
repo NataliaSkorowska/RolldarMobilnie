@@ -3,8 +3,8 @@
 ---
 
 ## Spis treści
-* [1. Charakterystyka oprogramowania](#1.charakterystyka-oprogramowania)
-* [2. Prawa autorskie](#2.prawa-autorskie)
+* [1. Charakterystyka oprogramowania](#charakterystyka-oprogramowania)
+* [2. Prawa autorskie](#prawa-autorskie)
 * [3. Specyfikacja wymagan](#specyfikacja-wymagan)
 * [4. Architetura systemu](#Architektura-systemu)
 * [5. Testy](#Testy)
@@ -12,7 +12,7 @@
 
 ---
 
-## 1.Charakterystyka oprogramowania
+## Charakterystyka oprogramowania
 
 <b> Nazwa skrócona: </b> RolldarMobilnie
 
@@ -24,7 +24,7 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nada
 
 ---
 
-## 2.Prawa autorskie
+## Prawa autorskie
 
 <b> a. Autor: </b> Natalia Skórowska
 
@@ -32,7 +32,7 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nada
 
 ---
 
-## 3. Specyfikacja wymagań
+## Specyfikacja wymagań
 
 ### A. Wymagania niefunkcjonalne
 
@@ -99,7 +99,7 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nada
 
 ---
 
-# 4. Architektura systemu
+# Architektura systemu
 
 a. Architektura rozwoju - stos technologiczny
 
