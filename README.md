@@ -3,7 +3,7 @@
 ---
 
 ## Spis treści
-* [1. Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
+* [1. Charakterystyka oprogramowania](#1.charakterystyka-oprogramowania)
 * [2. Prawa autorskie](#2.prawa-autorskie)
 * [3. Specyfikacja wymagan](#specyfikacja-wymagan)
 * [4. Architetura systemu](#Architektura-systemu)
@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Charakterystyka oprogramowania
+## 1.Charakterystyka oprogramowania
 
 <b> Nazwa skrócona: </b> RolldarMobilnie
 
