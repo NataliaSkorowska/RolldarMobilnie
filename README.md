@@ -14,11 +14,11 @@
 
 ## 1. Charakterystyka oprogramowania
 
-Nazwa skrócona: RolldarMobilnie
+<b> Nazwa skrócona: </b> RolldarMobilnie
 
-Nazwa pełna: RolldarMobilnie - Twoja firma w jednym miejscu
+<b> Nazwa pełna: </b> RolldarMobilnie - Twoja firma w jednym miejscu
 
-Opis: Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
+<b> Opis: </b> Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
 Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
 Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nadawać im statusy oraz może przechowywać w aplikacji zdjęcia faktur.
 
@@ -26,9 +26,9 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nada
 
 ## 2.Prawa autorskie
 
-a. Autor: Natalia Skórowska
+<b> a. Autor: </b> Natalia Skórowska
 
-b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
+<b> b. Licencja: </b> Uznanie autorstwa - użycie niekomercyjne 4.0
 
 ---
 
@@ -85,7 +85,7 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 | F10 | Funkcjonalne | Widok | Zamówienia | Widok 'Zamówienia' składa się z wyśrodkowanych elementów wyświetlonych od góry w kolejności: pole "Wyszukaj", przycisk "Dodaj" oraz listy zawierającej wszystkie zamówienia. Po lewej stronie bezpośrednio nad listą zamieszczony jest przycisk z ikoną sortowania, a po prawej przycisk z ikoną filtrowania.   | 1 |
 | F11 | Funkcjonalne | Zamówienia | Lista | Lista zamówień wyświetlana jest na 65% wysokości strony od dolnej krawędzi i zawiera listę zamówień domyślnie posortowaną od najnowszego do najstarszego. Z poziomu listy widoczne jest po lewej stronie wiersza: status zamowienia, na srodku wiersza: Imię i nazwisko klienta, rodzaj dekoracji okiennej, data zlozenia zamowienia (kolejno pod soba), po prawej stronie wiersza ikona kosza, oczu oraz edycji.| 1 |
 | F12 | Funkcjonalne | Zamówienia | Usuwanie zamowienia | Po  po naciśnięciu na ikonę kosza (aktywna tylko dla pracownika, ktory dodal dane zamowienie) znajdującą się przy danym zamówieniu z listy system wyswietla na srodku strony okienko z tekstem: "Czy na pewno chcesz usunac to zamowienie?" i z dwoma przyciskami "Tak, usuń", "Anuluj". Po nacisnieciu na przycisk "Tak, usuń" system przenosi informacje do archiwum (niedostepnego z poziomu aplikacji dla Usera),. Po naciśnięciu przycisku "Anuluj" okno się zamyka i wyświetlony zostaje widok 'Zamówienia'.| 1 |
-| F13 | Funkcjonalne | Zamówienia | Edycja zamowienia | Po nacisnieciu na ikonę edycji w danym wierszu listy zamówień użytkownik zostanje przekierowany do widoku "Edycja zamowienia", w ktorym moze| 1 |
+| F13 | Funkcjonalne | Zamówienia | Edycja zamowienia | Po nacisnieciu na ikonę edycji w danym wierszu listy zamówień użytkownik zostanje przekierowany do widoku "Edycja zamowienia", w ktorym moze dokonać edycji danych zawartych w danym zamówieniu - wyświetlone zostają wszystkie dane wprowadzone o zamówieniu (w zależności do statusu zamówienia), edycji nie podlega data złożenia zamówienia.| 1 |
 | F13 | Funkcjonalne | Zamówienia | Paginacja listy | Lista wyświetla w jednym czasie 10 zamówień, która można przewijać w pionie, na dole listy pod ostatnim zamówieniem znajduje się panel paginacji zawierający od lewej: znak mniejszosci, numeracje stron (z pogrubieniem aktualnie wyświetlanej strony) zawierającą 5 cyfr, znak większości. Jeśli stron jest więcej niż 5 przekierowanie do stron o wyższym numerze następuje poprzez naciśnięcie znaku większości. Analogicznie przekierowanie do stron niższych. | 1 |
 | F14 | Funkcjonalne | Zamówienia | Filtrowanie listy | Po naciśnięciu na ikonę filtrowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z trzech wierszy:  1 - 'Status' - z checkboxami "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona" 2 - 'Termin' - z możliwością wybrania przedziału czasowego z dokładnością do dnia.  3 - 'Pracownik' - z checkboxami odpowiadającymi każdemu z aktualnie zatrudnionych w Rolldar pracowników technicznych. Po zaznaczeniu przynajmniej jednego pola aktywny staje się przycisk "Filtruj", po którego naciśnięciu wyświetlona zostaje zaktualizowana zgodnie z wybranymi kryteriami lista zamówieńm a lista z opcjami filtrowania zostaje ukryta. |2|
 | F15 | Funkcjonalne | Zamówienia | Sortowanie listy | Po naciśnięciu na ikonę sortowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z sześciu opcji do wyboru wierszy:  1 - "Według daty od najstarszych" 2 - "Według daty od najnowszych" 3 - "Według statusu od nowych" 4 - "Według statusu od zakończonych" 5 - "Według nazwiska klienta od A do Z" 6 - "Według nazwiska klienta od Z do A". Po naciśnięciu na jeden z wierszy wyświetlona zostaje posortowana zgodnie z wybranymi kryteriami lista zamówień, a lista z opcjami sortowania zostaje ukryta.|2|
@@ -94,7 +94,7 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 | F18 | Funkcjonalne | Dodaj zamowienie| Walidacja formularza zamowienia |Jeśli użytkownik podczas wypełniania formularza zamówienia poda dane w nieprawidłowym formacie informacja o tym zostanie wyświetlona pod formularzem po naciśnięciu przycisku "Zapisz" w postaci tekstu "Nieprawidłowy format danych" zapisanego czerwoną czcionką bezpośrednio pod błędnie wypełnionym polem.| 1 |
 | F19 | Funkcjonalne | Dodaj zamowienie | Zapisanie zamowienia | Użytkownik poprzez poprawne wypełnienie formularza nowego zamowienia ma możliwość dodania nowego zamowienia realizowanego przez firmę Rolldar, po poprawnym wypełnieniu wszystkich pól i naciśnięciu przycisku "Dodaj" wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie o numerze xxx" (gdzie xxx - jest kolejnym, unikatowym numerem zamowienia, ktory jest inkrementowany przy dodaniu nowego rekordu) | 1 |
 | F20 | Funkcjonalne | Zamowienia | Wyszukanie oferty |  Poprzez pasek wyszukiwania znajdujący się w widoku "Zamowienia" użytkownik ma możliwość wyszukania interesującego go zamowienia - wpisujac adres, numer telefonu, imie lub nazwisko klienta.| 1 |
-| F21 | Funkcjonalne | Zamowienia | Usuwanie filtru wyszukiwania |  Po nacisnieciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamowien system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamowien.| 1 |
+| F21 | Funkcjonalne | Zamowienia | Usuwanie filtru wyszukiwania |  Po naciśnięciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamowien system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamowien.| 1 |
 
 | 21 | Funkcjonalne | Zamówienia | Szczegóły zamówienia | Użytkownik zalogowany jako pracownik znajdując się na stronie "Zamówienia" po naciśnięciu na ikonę z ołówkiem znajdującą się przy danym zamówieniu z listy zostaje przekierowany na stronę zawierającą szczegóły danego zamówienia  | 1 |
 | 22 | Funkcjonalne | Zamówienia | Edycja zamówienia | Użytkownik zalogowany jako pracownik znajdując się na stronie zawierającej szczegóły danego zamówienia może edytować umieszczone tam dane, w tym zmieniać status zamówienia. Dostępne statusy: "Nowy", "W realizacji", "Ukończono"   | 2 |
@@ -122,6 +122,7 @@ b. Architektura uruchomieniowa - stos technologiczny
 
 Widok
 Zamowienie
+System
 
 ---
 
