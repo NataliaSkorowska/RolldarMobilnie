@@ -2,11 +2,13 @@
 
 ## Spis treści
 * [1. Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
-* [Technologie i narzędzia](#Technologie-i-narzędzia)
-* [Funkcjonalności](#Funkcjonalności)
-* [Interfejs](#Interfejs)
-* [Uruchomienie projektu](#Uruchomienie-projektu)
-# 1. Charakterystyka oprogramowania
+* [2. Prawa autorskie](#prawa-autorskie)
+* [3. Specyfikacja wymagan](#specyfikacja-wymagan)
+* [4. Architetura systemu](#Architektura-systemu)
+* [5. Testy](#Testy)
+
+
+# 1.Charakterystyka oprogramowania
 
 Nazwa skrócona: RolldarMobilnie
 
@@ -16,7 +18,7 @@ Opis: Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
 Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
 Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nadawać im statusy oraz może przechowywać w aplikacji zdjęcia faktur.
 
-# 2. Prawa autorskie
+# 2.Prawa autorskie
 
 a. Autor: Natalia Skórowska
 
