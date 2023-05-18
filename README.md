@@ -35,6 +35,7 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 ## 3. Specyfikacja wymagań
 
 ### A. Wymagania niefunkcjonalne
+
 | ID | Kategoria | Podkategoria | Nazwa krótka | Opis | Priorytet |
 | ------- | -------|------|------| -----| ----- |
 | NF1 | Niefunkcjonalne | Interfejs | Języ interfejsu | Interfejs użytkownika, komunikaty, powiadomienia, alerty przesyłane (pokazywane) użytkownikowi muszą być prezentowane w języku polskim. | P1 |
@@ -69,6 +70,7 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 ---
 
 ### B. Wymagania funkcjonalne
+
 | ID | Kategoria | Podkategoria | Nazwa krótka | Opis | Priorytet |
 | ------- | -------|------|------| -----| ----- |
 | F1 | Funkcjonalne | Widok | Strona główna | Po wejściu do aplikacji użytkownik zostaje przekierowany na stronę główną, na której znajdują się wyśrodkowane logo firmy oraz formularz logowania| 1 |
@@ -102,6 +104,7 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 # 4. Architektura systemu
 
 a. Architektura rozwoju - stos technologiczny
+
 | ID | Nazwa | Zastosowanie | Wersja |
 | ------- | -------|------|------| 
 | 1 | Visual Studio Code | Środowisko programistyczne | - |
