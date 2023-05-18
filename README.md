@@ -3,7 +3,7 @@
 ---
 
 ## Spis treści
-* [1. Charakterystyka oprogramowania](#charakterystyka-oprogramowania)
+* [1. Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
 * [2. Prawa autorskie](#prawa-autorskie)
 * [3. Specyfikacja wymagan](#specyfikacja-wymagan)
 * [4. Architetura systemu](#Architektura-systemu)
