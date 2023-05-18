@@ -1,14 +1,18 @@
 # RolldarMobilnie
 
+---
+
 ## Spis treści
 * [1. Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
 * [2. Prawa autorskie](#prawa-autorskie)
 * [3. Specyfikacja wymagan](#specyfikacja-wymagan)
 * [4. Architetura systemu](#Architektura-systemu)
 * [5. Testy](#Testy)
+* [6. Słownik pojęć](#Słownik-pojęć)
 
+---
 
-# 1.Charakterystyka oprogramowania
+## 1.Charakterystyka oprogramowania
 
 Nazwa skrócona: RolldarMobilnie
 
@@ -18,14 +22,19 @@ Opis: Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
 Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
 Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nadawać im statusy oraz może przechowywać w aplikacji zdjęcia faktur.
 
-# 2.Prawa autorskie
+---
+
+## 2.Prawa autorskie
 
 a. Autor: Natalia Skórowska
 
 b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 
-# 3. Specyfikacja wymagań
+---
 
+## 3. Specyfikacja wymagań
+
+### A. Wymagania niefunkcjonalne
 | ID | Kategoria | Podkategoria | Nazwa krótka | Opis | Priorytet |
 | ------- | -------|------|------| -----| ----- |
 | NF1 | Niefunkcjonalne | Interfejs | Języ interfejsu | Interfejs użytkownika, komunikaty, powiadomienia, alerty przesyłane (pokazywane) użytkownikowi muszą być prezentowane w języku polskim. | P1 |
@@ -56,6 +65,11 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 | NF26 | Niefunkcjonalne | Dostęp | Role | W systemie występują dwa rodzaje użytkowników: "Admin" oraz "User".|1|
 | NF26 | Niefunkcjonalne | Dostęp | Administrator | Uprawnienia Admina umożliwiają mu tworzenie, edycję, usuwanie i zarządzanie dostępem dla "Userów". |1|
 | NF26 | Niefunkcjonalne | Dostęp | User | |1|
+
+---
+
+### B. Wymagania funkcjonalne
+| ID | Kategoria | Podkategoria | Nazwa krótka | Opis | Priorytet |
 | ------- | -------|------|------| -----| ----- |
 | F1 | Funkcjonalne | Widok | Strona główna | Po wejściu do aplikacji użytkownik zostaje przekierowany na stronę główną, na której znajdują się wyśrodkowane logo firmy oraz formularz logowania| 1 |
 | F2 | Funkcjonalne | Logowanie | Formularz logowania| Użytkownik może zalogować się do systemu poprzez prawidłowe wypełnienie formularza logowania znajdującego się w widoku "Strona główna" poprzez wpisanie nazwy użytkownika w pole "Nazwa" oraz przypisanego do tej nazwy hasła w pole "Hasło", a następnie zatwierdzenie wpisanych danych poprzez naciśnięcie przycisku "Zaloguj"  |1|
@@ -80,12 +94,10 @@ b. Licencja: Uznanie autorstwa - użycie niekomercyjne 4.0
 | F20 | Funkcjonalne | Zamowienia | Wyszukanie oferty |  Poprzez pasek wyszukiwania znajdujący się w widoku "Zamowienia" użytkownik ma możliwość wyszukania interesującego go zamowienia - wpisujac adres, numer telefonu, imie lub nazwisko klienta.| 1 |
 | F21 | Funkcjonalne | Zamowienia | Usuwanie filtru wyszukiwania |  Po nacisnieciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamowien system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamowien.| 1 |
 
-
-| 13 | Funkcjonalne | Oferta | Szczegóły oferty | Użytkownik po kliknięciu na dany rodzaj dekoracji okiennej na stronie "Oferta" zostanie przeniesiony do strony zawierającej szczegółowe informacje oraz galerie zdjęć wybranej przez siebie opcji| 2 |
-
-
 | 21 | Funkcjonalne | Zamówienia | Szczegóły zamówienia | Użytkownik zalogowany jako pracownik znajdując się na stronie "Zamówienia" po naciśnięciu na ikonę z ołówkiem znajdującą się przy danym zamówieniu z listy zostaje przekierowany na stronę zawierającą szczegóły danego zamówienia  | 1 |
 | 22 | Funkcjonalne | Zamówienia | Edycja zamówienia | Użytkownik zalogowany jako pracownik znajdując się na stronie zawierającej szczegóły danego zamówienia może edytować umieszczone tam dane, w tym zmieniać status zamówienia. Dostępne statusy: "Nowy", "W realizacji", "Ukończono"   | 2 |
+
+---
 
 # 4. Architektura systemu
 
@@ -108,4 +120,10 @@ b. Architektura uruchomieniowa - stos technologiczny
 Widok
 Zamowienie
 
+---
+
 # 5. Testy
+
+# 6. Słownik pojęć
+
+# 7. Możliwości rozbudowy
