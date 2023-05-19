@@ -20,7 +20,7 @@
 
 <b> Opis: </b> Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
 Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
-Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez może nadawać im statusy oraz może przechowywać w aplikacji zdjęcia faktur.
+Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez przechowywanie danych związanych z każdym zamówieniem i śledzenie ich postępu poprzez nadawanie statusów. Dzięki aplikacji pracownicy techniczni działający w terenie mają informacje niezbędne do efektywnej pracy zawsze przy sobie, a kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę.
 
 ---
 
@@ -109,29 +109,35 @@ a. Architektura rozwoju - stos technologiczny
 
 | ID | Nazwa | Zastosowanie | Wersja |
 | ------- | -------|------|------| 
-| 1 | Visual Studio Code | Środowisko programistyczne | - |
-| 2 | Ionic | Framework aplikacji, struktura projektu | 5.4.1 |
-| 3 | Angular | Framework aplikacji | 10.2.0 |
-| 4 | AngularFire | Komunikacja aplikacji z bazą danych (przechowywanie danych, logowanie) | 6.0.3 |
-| 5 | Firebase | Baza danych |  7.24.0 |
-| 6 | HTML5 | Struktura aplikacji |  - |
-| 7 | Figma | Stworzenie prototypu aplikacji |  - |
-| 8 | Node.js | Serwer do uruchomienia aplikacji |  14.17.4 |
-| 9 | Git |  |  |
-| 10 | GitHub |  |  |
+| 1 | Ionic | Framework aplikacji, struktura projektu | 7.5.0 |
+| 2 | Angular | Framework aplikacji | 16.0.2 |
+| 3 | AngularFire | Komunikacja aplikacji z bazą danych (przechowywanie danych, logowanie) | 7.5.0 |
+| 4 | Firebase | Baza danych |  31.5.0 |
+| 5 | HTML5 | Struktura aplikacji |  - |
+| 6 | Figma | Stworzenie prototypu aplikacji |  107.0.0 |
+| 7 | Node.js | Serwer do uruchomienia aplikacji |  18.12.0 |
+
 
 b. Architektura uruchomieniowa - stos technologiczny
 
-Widok
-Zamowienie
-System
+
+| ID | Nazwa | Zastosowanie | Wersja |
+| ------- | -------|------|------|
+| 1 | Visual Studio Code | Środowisko programistyczne | 17.5.5 |
+| 2 | Git | System kontroli wersji | 2.40.1 |
+| 3 | GitHub | Przechowywanie repozytorium w chmurze | 3.8.3 |
+
+
+
 
 ---
 
 # Testy
 
 # Słownik pojęć
-
+Widok
+Zamowienie
+System
 # Możliwości rozbudowy
 1) Umieszczanie zdjęć do każdego zamówienia
 2) Lista klientów
