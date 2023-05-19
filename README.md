@@ -133,6 +133,14 @@
 
 # Testy
 
+| Lp. | Nazwa | Warunki wstępne| Kroki wykonania | Oczekiwany rezultat |
+| ------------- | ------------- |------|------|-------|
+1| Widoczność strony głównej | Serwer, na którym zamieszczona jest aplikacja jest uruchomiony i poprawnie skonfigurowany. | Użytkownik po włączeniu aplikacji widzi widok strony głównej aplikacji. | Strona główna aplikacji Rolldar zawierająca wyśrodkowane logo firmy oraz formularz logowania zostaje wyświetlona. |
+| 2 | Formularz logowania||Wpisanie nazwy użytkownika w pole "Nazwa" oraz odpowiadającego mu hasła|Użytkownik zostaje zalogowany i przekierowany do strony "Zamówienia"|
+| 3 | Walidacja logowania - nazwa użytkownika|Użytkownik znajduje się na widoku "Strona główna". Widok "Strona główna" zawiera formularz logowania.|Wpisanie w pole "Nazwa" nieistniejącej nazwy użytkownika i naciśnięcia przycisku "Zaloguj się" znajdującego się pod formularzem.|Tekst zapisany czerwoną czcionką "Nieprawidłowa nazwa użytkownika" zostaje wyświetlony bezpośrednio pod polem "Nazwa".|
+| 4 |  Walidacja logowania - hasło |Użytkownik znajduje się na widoku "Strona główna". Widok "Strona główna" zawiera formularz logowania.|Wpisanie w pole "Nazwa" istniejącej nazwy użytkownika. Wpisanie w pole "Hasło" błędnego dla danego użytkownika hasła i naciśnięcia przycisku "Zaloguj się" znajdującego się pod formularzem.|Tekst zapisany czerwoną czcionką "Nieprawidłowe hasło" zostaje wyświetlony bezpośrednio pod polem "Nazwa".
+| 5 | Przekierowanie po logowaniu |Użytkownik posiada aktywne konto w aplikacji. W bazie danych przechowywane są Nazwa oraz Hasło użytkownika zgodne z tymi, które użytkownik wpisał w formularzu| Użytkowik |Widok "Zamówienia" zostaje wyświetlony.|
+| 6 |  Dostępność menu bocznego  |Użytkownik jest zalogowany do aplikacji Rolldar.|Nawigacja między widokami dostępnymi dla zalogowanego użytkownika.|Ikona menu bocznego jest widoczna i aktywna w panelu górnym.|
 # Słownik pojęć
 
 <ins> <b> Widok </b> </ins>
@@ -145,7 +153,8 @@ Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia de
 - Imię i nazwisko klienta
 - Adres wykonania zlecenia
 - Numer telefonu klienta
-- Obecny status zamówienia. Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
+- Obecny status zamówienia. 
+Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
 - Imię i nazwisko pracownika odpowiedzialnego za realizację zlecenia
 - Wysokość oraz szerokość okna (wymiary okna)
 - Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
