@@ -18,9 +18,11 @@
 
 <b> Nazwa pełna: </b> RolldarMobilnie - Twoja firma w jednym miejscu
 
-<b> Opis: </b> Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
-Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
-Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez przechowywanie danych związanych z każdym zamówieniem i śledzenie ich postępu poprzez nadawanie statusów. Dzięki aplikacji pracownicy techniczni działający w terenie mają informacje niezbędne do efektywnej pracy zawsze przy sobie, a kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę.
+<b> Opis: </b> 
+- Hybrydowa aplikacja mobilna stworzona z wykorzystaniem frameworka Ionic.
+- Przeznaczona do zarządzania zamówieniami dla pracowników firmy Rolldar zajmującej się montażem oraz serwisem dekoracji okiennych.
+- Umożliwiająca użytkownikom zarządzanie zamówieniami poprzez przechowywanie danych związanych z każdym zamówieniem i śledzenie ich postępu poprzez nadawanie statusów. 
+- Dzięki aplikacji pracownicy techniczni działający w terenie mają informacje niezbędne do efektywnej pracy zawsze przy sobie, a kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę niezależnie od miejsca i czasu.
 
 ---
 
@@ -54,14 +56,14 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez przechowyw
 | NF14 | Niefunkcjonalne | Bezpieczeństwo	 | Zgodność z prawem | Standard bezpieczeństwa informacji zawartych w aplikacji powinien być zgodny z aktualnym prawem. |P1|
 | NF15 | Niefunkcjonalne | Bezpieczeństwo	| Zmiana hasła | Aplikacja powinna wymuszać zmianę hasła użytkownika co 60 dni. |P2|
 | NF16 | Niefunkcjonalne | Wydajnościowe	 | Liczba użytkowników | Jednocześnie ze strony może korzystać 500 osób znajdujących się w różnych lokalizacjach |P2|
-| NF24 | Niefunkcjonalne | Wydajnościowe | Czas reakcji | Maksymalny czas pomiędzy pobudzeniem przez użytkownika a odpowiedzią systemu nie powinien być dłuższy niż 4 sekundy. | P2|
-| NF17 | Niefunkcjonalne | Wydajnościowe	| Czas pracy| Aplikacja powinna być dostępna dla użytkowników 24/7/365 średnio 97% czasu. W ciągu kolejnych 4 lat korzystania z niej |P2|
-| NF18 | Niefunkcjonalne | Wydajnościowe	| Czas uruchomienia po awarii| W przypadku awarii aplikacja powinna zostać naprawiona w ciągu 5 godzin od pierwszego zgłoszenia niepożądanego zachowania systemu. | P2|
-| NF19 | Niefunkcjonalne | Utrzymanie	| Wersjonowanie | Nowe wersje aplikacji publikowane są zgodnie z konwencją: X.Y.Z, gdzie X oznacza numer znacznącej wprowadzonej zmiany najczęściej dodającej nowe funkcjonalności, y jest wersją, która wprowadziła niewielkie zmiany w funcjonalności (przyrosty funkcjonalności), a Z służy do wprowadzenia poprawek bezpieczeństwa krytycznych błędów. |P3|
-| NF20 | Niefunkcjonalne | Utrzymanie	| Aktualizacja | Nowe wydania systemu są publikowane w oparciu o przeprowadzoną analizę obciążenia systemu. Wydanie wprowadzane jest w momencie najmniejszego obciążenia systemu.  |P3|
-| NF21 | Niefunkcjonalne | Utrzymanie	| Wsparcie po aktualizacji | Po wprowadzeniu aktualizacji przez 24 godziny zzapewnione jest wsparcie techniczne na wypadek niepożądanych konsekwencji wprowadzenia nowych funkconalności.  |P2|
-| NF22 | Niefunkcjonalne | Dostęp	 | Sklepy z aplikacjami | Aplikacja powinna być dostępna do pobrania za darmo w sklepach z aplikacjami Google Play oraz Apple Store. |P1|
-| NF23 | Niefunkcjonalne | Dostęp	 | Systemy operacyjne  | Aplikacja powinna działać prawidłowo na urządzeniach zawierających mobilny system operacyjny Android (wersja 9.0 i wyższe) oraz iOS (wersja 12.0 i wyższe). | P1|
+| NF17 | Niefunkcjonalne | Wydajnościowe | Czas reakcji | Maksymalny czas pomiędzy pobudzeniem przez użytkownika a odpowiedzią systemu nie powinien być dłuższy niż 4 sekundy. | P2|
+| NF18 | Niefunkcjonalne | Wydajnościowe	| Czas pracy| Aplikacja powinna być dostępna dla użytkowników 24/7/365 średnio 97% czasu. W ciągu kolejnych 4 lat korzystania z niej |P2|
+| NF19 | Niefunkcjonalne | Wydajnościowe	| Czas uruchomienia po awarii| W przypadku awarii aplikacja powinna zostać naprawiona w ciągu 5 godzin od pierwszego zgłoszenia niepożądanego zachowania systemu. | P2|
+| NF20 | Niefunkcjonalne | Utrzymanie	| Wersjonowanie | Nowe wersje aplikacji publikowane są zgodnie z konwencją: X.Y.Z, gdzie X oznacza numer znacznącej wprowadzonej zmiany najczęściej dodającej nowe funkcjonalności, y jest wersją, która wprowadziła niewielkie zmiany w funcjonalności (przyrosty funkcjonalności), a Z służy do wprowadzenia poprawek bezpieczeństwa krytycznych błędów. |P3|
+| NF21 | Niefunkcjonalne | Utrzymanie	| Aktualizacja | Nowe wydania systemu są publikowane w oparciu o przeprowadzoną analizę obciążenia systemu. Wydanie wprowadzane jest w momencie najmniejszego obciążenia systemu.  |P3|
+| NF22 | Niefunkcjonalne | Utrzymanie	| Wsparcie po aktualizacji | Po wprowadzeniu aktualizacji przez 24 godziny zzapewnione jest wsparcie techniczne na wypadek niepożądanych konsekwencji wprowadzenia nowych funkconalności.  |P2|
+| NF23 | Niefunkcjonalne | Dostęp	 | Sklepy z aplikacjami | Aplikacja powinna być dostępna do pobrania za darmo w sklepach z aplikacjami Google Play oraz Apple Store. |P1|
+| NF24 | Niefunkcjonalne | Dostęp	 | Systemy operacyjne  | Aplikacja powinna działać prawidłowo na urządzeniach zawierających mobilny system operacyjny Android (wersja 9.0 i wyższe) oraz iOS (wersja 12.0 i wyższe). | P1|
 | NF25 | Niefunkcjonalne | Dostęp | Połączenie z Internetem| Do prawidłowego funkcjonowania systemu niezbędne jest stabilne połączenie internetowe wynoszące minimum 300 mb/s. |P1|
 | NF26 | Niefunkcjonalne | Dostęp | Role | W systemie występują dwa rodzaje użytkowników: "Admin" oraz "User".|P1|
 | NF27 | Niefunkcjonalne | Dostęp | Administrator | Uprawnienia Admina umożliwiają mu tworzenie, edycję, usuwanie i zarządzanie dostępem dla "Userów". |P1|
@@ -87,19 +89,19 @@ Aplikacja umożliwia użytkownikom zarządzanie zamówieniami poprzez przechowyw
 | F12 | Funkcjonalne | Zamówienia | Usuwanie zamowienia | Po  po naciśnięciu na ikonę kosza (aktywna tylko dla pracownika, ktory dodal dane zamowienie) znajdującą się przy danym zamówieniu z listy system wyswietla na srodku strony okienko z tekstem: "Czy na pewno chcesz usunac to zamowienie?" i z dwoma przyciskami "Tak, usuń", "Anuluj". Po nacisnieciu na przycisk "Tak, usuń" system przenosi informacje do archiwum (niedostepnego z poziomu aplikacji dla Usera),. Po naciśnięciu przycisku "Anuluj" okno się zamyka i wyświetlony zostaje widok 'Zamówienia'.| P1 |
 | F13 | Funkcjonalne | Zamówienia | Szczegóły zamówienia | Po naciśnięciu na ikonę oka znajdującą się przy danym zamówieniu z listy użytkownik zostaje przekierowany na stronę zawierającą szczegóły danego zamówienia - dane z formularza wyświetlone są jako nieedytowalny tekst w kolejności zgodnej z tej z formularza. Ilość wyświetlonych danych zależy od statusu zamówienia.  | P2 |
 | F14 | Funkcjonalne | Zamówienia | Edycja zamowienia | Po naciśnięciu na ikonę edycji w danym wierszu listy zamówień użytkownik zostaje przekierowany do widoku "Edycja zamowienia", w ktorym moze dokonać edycji danych zawartych w danym zamówieniu - wyświetlone zostają w formie edytowalnych pól wszystkie dane wprowadzone o zamówieniu (w zależności do statusu zamówienia), edycji nie podlega data złożenia zamówienia.| P1 |
-| F14 | Funkcjonalne | Zamówienia | Zatwierdzanie edycji| System aktywuje przycisk "Zapisz zmiany" znajdujący się pod formularzem edycji zamówienia jeśli użytkownik wprowadzi zmiany w formularzu.| P1 |
-| F15 | Funkcjonalne | Zamówienia | Zmiana statusu zamówienia | W widoku "Edycja zamówienia" system umożliwia wybranie z listy rozwijanej statusu zamówienia i jego zmianę. Dostępne statusy zamówienia: 1.Wymiary zebrane, 2.Oferta wysłana, 3.Oferta zaakceptowana, 4.W realizacji 5.Usługa wykonana, 6. Usługa zakończona, 7.Usługa z zastrzeżeniami| 1 |
-| F14 | Funkcjonalne | Zamówienia | Status "Zebrano wymiary" | Po zmianie statusu zamówienia na "Zebrano wymiary" wyświetlone zostaje pola umożlwiiające wpisanie: wysokości okna oraz szerokości okna oraz pole umożliwiające wybór dekoracji okiennej z rozwijanej listy.|P1 |
-| F15 | Funkcjonalne | Zamówienia | Edycja daty każdego etapu zamówienia | W widoku "Edycja zamówienia" po wyborze nowego statusu zamówienia z listy system wyświetla pole do wyboru daty otrzymania danego statusu, która zostaje zapisana poprzez naciśnięciu przycisku "Zapisz edycję" znajdującego się pod formularzem edycji zamówienia. 1 |
-| F22| Funkcjonalne | Zamówienia | Paginacja listy | Lista wyświetla w jednym czasie 10 zamówień, która można przewijać w pionie, na dole listy pod ostatnim zamówieniem znajduje się panel paginacji zawierający od lewej: znak mniejszosci, numeracje stron (z pogrubieniem aktualnie wyświetlanej strony) zawierającą 5 cyfr, znak większości. Jeśli stron jest więcej niż 5 przekierowanie do stron o wyższym numerze następuje poprzez naciśnięcie znaku większości. Analogicznie przekierowanie do stron niższych. | P3 |
-| F23 | Funkcjonalne | Zamówienia | Filtrowanie listy | Po naciśnięciu na ikonę filtrowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z trzech wierszy:  1 - 'Status' - z checkboxami "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona" 2 - 'Termin' - z możliwością wybrania przedziału czasowego z dokładnością do dnia.  3 - 'Pracownik' - z checkboxami odpowiadającymi każdemu z aktualnie zatrudnionych w Rolldar pracowników technicznych. Po zaznaczeniu przynajmniej jednego pola aktywny staje się przycisk "Filtruj", po którego naciśnięciu wyświetlona zostaje zaktualizowana zgodnie z wybranymi kryteriami lista zamówieńm a lista z opcjami filtrowania zostaje ukryta. |P3|
-| F24 | Funkcjonalne | Zamówienia | Sortowanie listy | Po naciśnięciu na ikonę sortowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z sześciu opcji do wyboru wierszy:  1 - "Według daty od najstarszych" 2 - "Według daty od najnowszych" 3 - "Według statusu od nowych" 4 - "Według statusu od zakończonych" 5 - "Według nazwiska klienta od A do Z" 6 - "Według nazwiska klienta od Z do A". Po naciśnięciu na jeden z wierszy wyświetlona zostaje posortowana zgodnie z wybranymi kryteriami lista zamówień, a lista z opcjami sortowania zostaje ukryta.|P3|
-| F25 | Funkcjonalne | Widok | Dodaj  zamówienie | Po nacisnieciu przycisku "Dodaj zamowienie" system przekierowuje użytkownika do widoku o tej samej nazwie, ktory zawiera formularz nowego zamowienia. | P1 |
-| F26 | Funkcjonalne | Dodaj zamowienie| Formularz nowego zamówienia | Po nacisnieciu przycisku "Dodaj zamowienie" system przekierowuje użytkownika do widoku o tej samej nazwie, ktory zawiera formularz nowego zamowienia. Formularz sklada sie z nastepujacych pol: Imie i nazwisko klienta (obowiazkowe pole tekstowe min 5 znakow, max 50), miejscowosc (obowiazkowe pole, min 4 znaki, max 40), ulica (obowiazkowe, min 3 znaki, max 50), kod pocztowy (obowiazkowe pole, zgodny z formatem kodu pocztowego 00-000), numer budynku/mieszkania (obowiazkowe pole tekstowe, min 1 znak, max 10), numer telefonu (obowiazkowe,9 cyfr), data zlozenia zamowienia, data pierwszej wizyty, notatka (pole tekstowe nieobowiązkowe, maximum 400 slow). Oraz przycisku "Zapisz" znajdujacego sie pod formularzem.| P1 |
-| F27 | Funkcjonalne | Dodaj zamowienie| Walidacja formularza zamowienia |Jeśli użytkownik podczas wypełniania formularza zamówienia poda dane w nieprawidłowym formacie informacja o tym zostanie wyświetlona pod formularzem po naciśnięciu przycisku "Zapisz" w postaci tekstu "Nieprawidłowy format danych" zapisanego czerwoną czcionką bezpośrednio pod błędnie wypełnionym polem.| P1 |
-| F28 | Funkcjonalne | Dodaj zamowienie | Zapisanie zamowienia | Użytkownik poprzez poprawne wypełnienie formularza nowego zamowienia ma możliwość dodania nowego zamowienia realizowanego przez firmę Rolldar, po poprawnym wypełnieniu wszystkich pól i naciśnięciu przycisku "Dodaj" wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie o numerze xxx" (gdzie xxx - jest kolejnym, unikatowym numerem zamowienia, ktory jest inkrementowany przy dodaniu nowego rekordu) | P1 |
-| F29 | Funkcjonalne | Zamowienia | Wyszukanie oferty |  Poprzez pasek wyszukiwania znajdujący się w widoku "Zamowienia" użytkownik ma możliwość wyszukania interesującego go zamowienia - wpisujac adres, numer telefonu, imie lub nazwisko klienta.| P2 |
-| F30 | Funkcjonalne | Zamowienia | Usuwanie filtru wyszukiwania |  Po naciśnięciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamowien system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamowien.| P3 |
+| F15 | Funkcjonalne | Zamówienia | Zatwierdzanie edycji| System aktywuje przycisk "Zapisz zmiany" znajdujący się pod formularzem edycji zamówienia jeśli użytkownik wprowadzi zmiany w formularzu.| P1 |
+| F16 | Funkcjonalne | Zamówienia | Zmiana statusu zamówienia | W widoku "Edycja zamówienia" system umożliwia wybranie z listy rozwijanej statusu zamówienia i jego zmianę. Dostępne statusy zamówienia: 1.Wymiary zebrane, 2.Oferta wysłana, 3.Oferta zaakceptowana, 4.W realizacji 5.Usługa wykonana, 6. Usługa zakończona, 7.Usługa z zastrzeżeniami| 1 |
+| F17 | Funkcjonalne | Zamówienia | Status "Zebrano wymiary" | Po zmianie statusu zamówienia na "Zebrano wymiary" wyświetlone zostaje pola umożlwiiające wpisanie: wysokości okna oraz szerokości okna oraz pole umożliwiające wybór dekoracji okiennej z rozwijanej listy.|P1 |
+| F18 | Funkcjonalne | Zamówienia | Edycja daty każdego etapu zamówienia | W widoku "Edycja zamówienia" po wyborze nowego statusu zamówienia z listy system wyświetla pole do wyboru daty otrzymania danego statusu, która zostaje zapisana poprzez naciśnięciu przycisku "Zapisz edycję" znajdującego się pod formularzem edycji zamówienia. 1 |
+| F19| Funkcjonalne | Zamówienia | Paginacja listy | Lista wyświetla w jednym czasie 10 zamówień, która można przewijać w pionie, na dole listy pod ostatnim zamówieniem znajduje się panel paginacji zawierający od lewej: znak mniejszosci, numeracje stron (z pogrubieniem aktualnie wyświetlanej strony) zawierającą 5 cyfr, znak większości. Jeśli stron jest więcej niż 5 przekierowanie do stron o wyższym numerze następuje poprzez naciśnięcie znaku większości. Analogicznie przekierowanie do stron niższych. | P3 |
+| F20 | Funkcjonalne | Zamówienia | Filtrowanie listy | Po naciśnięciu na ikonę filtrowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z trzech wierszy:  1 - 'Status' - z checkboxami "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona" 2 - 'Termin' - z możliwością wybrania przedziału czasowego z dokładnością do dnia.  3 - 'Pracownik' - z checkboxami odpowiadającymi każdemu z aktualnie zatrudnionych w Rolldar pracowników technicznych. Po zaznaczeniu przynajmniej jednego pola aktywny staje się przycisk "Filtruj", po którego naciśnięciu wyświetlona zostaje zaktualizowana zgodnie z wybranymi kryteriami lista zamówieńm a lista z opcjami filtrowania zostaje ukryta. |P3|
+| F21 | Funkcjonalne | Zamówienia | Sortowanie listy | Po naciśnięciu na ikonę sortowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z sześciu opcji do wyboru wierszy:  1 - "Według daty od najstarszych" 2 - "Według daty od najnowszych" 3 - "Według statusu od nowych" 4 - "Według statusu od zakończonych" 5 - "Według nazwiska klienta od A do Z" 6 - "Według nazwiska klienta od Z do A". Po naciśnięciu na jeden z wierszy wyświetlona zostaje posortowana zgodnie z wybranymi kryteriami lista zamówień, a lista z opcjami sortowania zostaje ukryta.|P3|
+| F22 | Funkcjonalne | Widok | Dodaj  zamówienie | Po nacisnieciu przycisku "Dodaj zamowienie" system przekierowuje użytkownika do widoku o tej samej nazwie, ktory zawiera formularz nowego zamowienia. | P1 |
+| F23 | Funkcjonalne | Dodaj zamowienie| Formularz nowego zamówienia | Po nacisnieciu przycisku "Dodaj zamowienie" system przekierowuje użytkownika do widoku o tej samej nazwie, ktory zawiera formularz nowego zamowienia. Formularz sklada sie z nastepujacych pol: Imie i nazwisko klienta (obowiazkowe pole tekstowe min 5 znakow, max 50), miejscowosc (obowiazkowe pole, min 4 znaki, max 40), ulica (obowiazkowe, min 3 znaki, max 50), kod pocztowy (obowiazkowe pole, zgodny z formatem kodu pocztowego 00-000), numer budynku/mieszkania (obowiazkowe pole tekstowe, min 1 znak, max 10), numer telefonu (obowiazkowe,9 cyfr), data zlozenia zamowienia, data pierwszej wizyty, notatka (pole tekstowe nieobowiązkowe, maximum 400 slow). Oraz przycisku "Zapisz" znajdujacego sie pod formularzem.| P1 |
+| F24 | Funkcjonalne | Dodaj zamowienie| Walidacja formularza zamowienia |Jeśli użytkownik podczas wypełniania formularza zamówienia poda dane w nieprawidłowym formacie informacja o tym zostanie wyświetlona pod formularzem po naciśnięciu przycisku "Zapisz" w postaci tekstu "Nieprawidłowy format danych" zapisanego czerwoną czcionką bezpośrednio pod błędnie wypełnionym polem.| P1 |
+| F25 | Funkcjonalne | Dodaj zamowienie | Zapisanie zamowienia | Użytkownik poprzez poprawne wypełnienie formularza nowego zamowienia ma możliwość dodania nowego zamowienia realizowanego przez firmę Rolldar, po poprawnym wypełnieniu wszystkich pól i naciśnięciu przycisku "Dodaj" wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie o numerze xxx" (gdzie xxx - jest kolejnym, unikatowym numerem zamowienia, ktory jest inkrementowany przy dodaniu nowego rekordu) | P1 |
+| F25 | Funkcjonalne | Zamowienia | Wyszukanie oferty |  Poprzez pasek wyszukiwania znajdujący się w widoku "Zamowienia" użytkownik ma możliwość wyszukania interesującego go zamowienia - wpisujac adres, numer telefonu, imie lub nazwisko klienta.| P2 |
+| F26 | Funkcjonalne | Zamowienia | Usuwanie filtru wyszukiwania |  Po naciśnięciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamowien system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamowien.| P3 |
 
 ---
 
@@ -127,17 +129,23 @@ b. Architektura uruchomieniowa - stos technologiczny
 | 2 | Git | System kontroli wersji | 2.40.1 |
 | 3 | GitHub | Przechowywanie repozytorium w chmurze | 3.8.3 |
 
-
-
-
 ---
 
 # Testy
 
 # Słownik pojęć
-Widok
-Zamowienie
-System
+
+<b> Widok </b>
+
+Jest to warstwa interfejsu użytkownika (UI) odpowiedzialna za wyświetlanie informacji i umożliwianie interakcji z użytkownikiem na ekranie urządzenia mobilnego, takiego jak smartphone czy tablet. Widok stanowi reprezentacje konkretne złożenie elementó, które tworzą interfejs użytkownika. Użytkownik może przemieszczać się pomiędzy widokami.
+
+<b> Zamówienie </b>
+
+<b> System </b>
+
+Wszystkie elementy i powiązania między nimi tworzące aplikację mobilną Rolldar.
+  
 # Możliwości rozbudowy
-1) Umieszczanie zdjęć do każdego zamówienia
-2) Lista klientów
+
+1) Funkcjonalność 
+2) Przechowywanie w ramach oddzielnej zakładki listy klientów z możliwością filtrowania, sortowania i wyszukiwania w ramach tej listy.
