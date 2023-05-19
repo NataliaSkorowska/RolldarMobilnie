@@ -141,10 +141,27 @@ Jest to warstwa interfejsu użytkownika (UI) odpowiedzialna za wyświetlanie inf
 
 <b> Zamówienie </b>
 
+Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia dekoracji okiennej wraz z usługą jej montażu lub serwisu. W rach Zamówienia w aplikacji Rolldar przechowywane są następujące dane:
+- Imię i nazwisko klienta
+- Adres wykonania zlecenia
+- Numer telefonu klienta
+- Obecny status zamówienia. Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
+- Imię i nazwisko pracownika odpowiedzialnego za realizację zlecenia
+- Wysokość oraz szerokość okna (wymiary okna)
+- Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
+
 <b> System </b>
 
 Wszystkie elementy i powiązania między nimi tworzące aplikację mobilną Rolldar.
   
+<b> Klient </b>
+
+Osoba zlecająca realizację zamówienia przez firmę Rolldar.
+
+<b> Użytkownik </b>
+
+Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar dostarczaną w ramach niniejszego projektu.
+
 # Możliwości rozbudowy
 
 1) Funkcjonalność 
