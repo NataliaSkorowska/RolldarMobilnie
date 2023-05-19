@@ -5,7 +5,7 @@
 ## Spis treści
 * [1. Charakterystyka oprogramowania](#charakterystyka-oprogramowania)
 * [2. Prawa autorskie](#prawa-autorskie)
-* [3. Specyfikacja wymagan](#specyfikacja-wymagan)
+* [3. Specyfikacja wymagań](#specyfikacja-wymagań)
 * [4. Architetura systemu](#Architektura-systemu)
 * [5. Testy](#Testy)
 * [6. Słownik pojęć](#Słownik-pojęć)
