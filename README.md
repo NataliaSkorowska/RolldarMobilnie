@@ -107,7 +107,7 @@
 
 # Architektura systemu
 
-a. Architektura rozwoju - stos technologiczny
+<b> a. Architektura rozwoju - stos technologiczny </b>
 
 | ID | Nazwa | Zastosowanie | Wersja |
 | ------- | -------|------|------| 
@@ -120,7 +120,7 @@ a. Architektura rozwoju - stos technologiczny
 | 7 | Node.js | Serwer do uruchomienia aplikacji |  18.12.0 |
 
 
-b. Architektura uruchomieniowa - stos technologiczny
+<b> b. Architektura uruchomieniowa - stos technologiczny </b>
 
 
 | ID | Nazwa | Zastosowanie | Wersja |
@@ -135,11 +135,11 @@ b. Architektura uruchomieniowa - stos technologiczny
 
 # Słownik pojęć
 
-<b> Widok </b>
+<ins> <b> Widok </b> </ins>
 
 Jest to warstwa interfejsu użytkownika (UI) odpowiedzialna za wyświetlanie informacji i umożliwianie interakcji z użytkownikiem na ekranie urządzenia mobilnego, takiego jak smartphone czy tablet. Widok stanowi reprezentacje konkretne złożenie elementó, które tworzą interfejs użytkownika. Użytkownik może przemieszczać się pomiędzy widokami.
 
-<b> Zamówienie </b>
+<ins> <b> Zamówienie </b></ins>
 
 Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia dekoracji okiennej wraz z usługą jej montażu lub serwisu. W rach Zamówienia w aplikacji Rolldar przechowywane są następujące dane:
 - Imię i nazwisko klienta
@@ -150,15 +150,15 @@ Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia de
 - Wysokość oraz szerokość okna (wymiary okna)
 - Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
 
-<b> System </b>
+<ins> <b> System </b></ins>
 
 Wszystkie elementy i powiązania między nimi tworzące aplikację mobilną Rolldar.
   
-<b> Klient </b>
+<ins> <b> Klient </b></ins>
 
 Osoba zlecająca realizację zamówienia przez firmę Rolldar.
 
-<b> Użytkownik </b>
+<ins> <b> Użytkownik </b></ins>
 
 Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar dostarczaną w ramach niniejszego projektu.
 
