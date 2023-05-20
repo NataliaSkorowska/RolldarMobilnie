@@ -9,6 +9,7 @@
 * [4. Architetura systemu](#Architektura-systemu)
 * [5. Testy](#Testy)
 * [6. Słownik pojęć](#Słownik-pojęć)
+* [7. Projekt widoków](#Projekt-widoków)
 
 ---
 
@@ -195,3 +196,7 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar dostarczaną w
 
 1) Funkcjonalność 
 2) Przechowywanie w ramach oddzielnej zakładki listy klientów z możliwością filtrowania, sortowania i wyszukiwania w ramach tej listy.
+
+# Projekt widoków
+
+![Zrzut ekranu (1767)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/4bad7ac5-22b0-44e2-81a6-cc1f0c38331d)
