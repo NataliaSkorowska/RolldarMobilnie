@@ -14,7 +14,7 @@
 
 ## Charakterystyka oprogramowania
 
-<b> Nazwa skrócona: </b> RolldarMobilnie
+<b> Nazwa skrócona: </b> Rolldar Mobilnie
 
 <b> Nazwa pełna: </b> RolldarMobilnie - Twoja firma w jednym miejscu
 
