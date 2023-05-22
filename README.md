@@ -31,6 +31,9 @@
 - Pracownicy techniczni firmy Rolldar
 - Kierownik firmy Rolldar
 - (Pośrednio) klienci firmy Rolldar, których dane przechowywane będą w bazie danych połączonej z dostarczonym systemem
+
+<b> Sposób pozyskania wymagań </b>:
+
 ---
 
 ## Prawa autorskie
