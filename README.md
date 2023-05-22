@@ -27,6 +27,10 @@
 - Zalety płynące z wykorzystania aplikacji przez pracowników technicznych: Podczas pracy w terenie (która zajmuje 80% czasu ich pracy) pracownicy techniczni mają informacje niezbędne do efektywnej pracy zawsze przy sobie niezależnie od miejsca i czasu. 
 - Zalety płynące z wykorzystania aplikacji przez kierowanika firmy: Kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę. Zapewnia to większą możliwość kontroli tego jakie zamówienia zostały zrealizowane oraz jakie są zaplanowane. Umożliwi to także nadzór nad efektywnością pracy pracowników technicznych.  
 
+<b> Interesariusze </b>:
+- Pracownicy techniczni firmy Rolldar
+- Kierownik firmy Rolldar
+- (Pośrednio) klienci firmy Rolldar, których dane przechowywane będą w bazie danych połączonej z dostarczonym systemem
 ---
 
 ## Prawa autorskie
