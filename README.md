@@ -24,15 +24,17 @@
 - Jej głównym celem jest usprawnienie procesu zarządzania zamówieniami, który jest realizowany przez pracowników firmy Rolldar. Firma ta specjalizuje się w montażu oraz serwisie dekoracji okiennych.
 - Jest to pierwszy w firmie system, który zbiera wszystkie informacje o zamówieniach w jednym miejscu dokonując integracji realizacji wykonywanych przez różnych pracowników.
 - W ofercie firmy znajdują się następujące dekoracje okienne: markizy, moskitiery, plisy, żaluzje pionowe oraz poziome, rolety zewnętrzne, wolnowiszące, zasłony, firany, bramy.
-- Zalety płynące z wykorzystania aplikacji przez pracowników technicznych: Podczas pracy w terenie (która zajmuje 80% czasu ich pracy) pracownicy techniczni mają informacje niezbędne do efektywnej pracy zawsze przy sobie niezależnie od miejsca i czasu. 
-- Zalety płynące z wykorzystania aplikacji przez kierowanika firmy: Kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę. Zapewnia to większą możliwość kontroli tego jakie zamówienia zostały zrealizowane oraz jakie są zaplanowane. Umożliwi to także nadzór nad efektywnością pracy pracowników technicznych.  
+- <b> Zalety płynące z wykorzystania aplikacji przez pracowników technicznych: </b> Podczas pracy w terenie (która zajmuje 80% czasu ich pracy) pracownicy techniczni mają informacje niezbędne do efektywnej pracy zawsze przy sobie niezależnie od miejsca i czasu. Dzięki aplikacji pracownicy nie muszą codziennie przebywać w biurze po wykonaniu zlecenia, a zyskany czas mogą przeznaczyć na realizację większej liczby zamówień by maksymalizować zyski w firmie.
+- <b> Zalety płynące z wykorzystania aplikacji przez kierowanika firmy: </b> Kierownik ma na bieżąco wgląd do zamówień wszystkich pracowników dzięki czemu może skuteczniej monitorować ich pracę. Zapewnia to większą możliwość kontroli tego jakie zamówienia zostały zrealizowane oraz jakie są zaplanowane. Umożliwi to także nadzór nad efektywnością pracy pracowników technicznych.  
 
 <b> Interesariusze </b>:
 - Pracownicy techniczni firmy Rolldar
 - Kierownik firmy Rolldar
 - (Pośrednio) klienci firmy Rolldar, których dane przechowywane będą w bazie danych połączonej z dostarczonym systemem
 
-<b> Sposób pozyskania wymagań </b>:
+<b> Sposób pozyskania wymagań: </b>
+- Wywiady z pracownikami oraz kierownikiem Rolldar
+- Obserwacja ich pracy w terenie oraz biurze
 
 ---
 
@@ -137,6 +139,10 @@
 | ------- | -------|------|------|
 | 1 | Firebase | Baza danych |  31.5.0 |
 | 2 | Node.js | Serwer do uruchomienia aplikacji |  18.12.0 |
+| 3A | iOS | Oprogramowanie mobilne, na którym zainstalowana została aplikacja |  12.0 i wyższe |
+| 3B | Android | Oprogramowanie mobilne, na którym zainstalowana została aplikacja |  9.0 i wyższe |
+
+3A i 3B - wymagane jedno z dwóch 
 
 ---
 
