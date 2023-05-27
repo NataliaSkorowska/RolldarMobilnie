@@ -45,6 +45,37 @@
 <b> b. Licencja: </b> Uznanie autorstwa - użycie niekomercyjne 4.0
 
 ---
+# Słownik pojęć
+
+<ins> <b> Widok </b> </ins>
+
+Jest to warstwa interfejsu użytkownika (UI) odpowiedzialna za wyświetlanie informacji i umożliwianie interakcji z użytkownikiem na ekranie urządzenia mobilnego, takiego jak smartphone czy tablet. Widok stanowi reprezentacje konkretne złożenie elementów, które tworzą interfejs użytkownika. Użytkownik może przemieszczać się pomiędzy widokami.
+
+<ins> <b> Zamówienie </b></ins>
+
+Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia dekoracji okiennej wraz z usługą jej montażu lub serwisu. W ramach Zamówienia w aplikacji Rolldar przechowywane są następujące dane:
+- Imię i nazwisko klienta
+- Adres wykonania zlecenia
+- Numer telefonu klienta
+- Obecny status zamówienia. 
+Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
+- Imię i nazwisko pracownika odpowiedzialnego za realizację zlecenia
+- Wysokość oraz szerokość okna (wymiary okna)
+- Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
+
+<ins> <b> System </b></ins>
+
+Wszystkie elementy i powiązania między nimi tworzące aplikację mobilną Rolldar Mobilnie.
+  
+<ins> <b> Klient </b></ins>
+
+Osoba zlecająca realizację zamówienia przez firmę Rolldar.
+
+<ins> <b> Użytkownik </b></ins>
+
+Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dostarczaną w ramach niniejszego projektu.
+
+---
 
 ## Specyfikacja wymagań
 
@@ -90,27 +121,27 @@
 | F2 | Funkcjonalne | Logowanie | Formularz logowania| System umożliwia zalogowanie się do aplikacji poprzez prawidłowe wypełnienie przez użytkownika formularza logowania  poprzez wpisanie nazwy użytkownika w pole "Nazwa" oraz przypisanego do tej nazwy hasła w pole "Hasło", a następnie zatwierdzenie wpisanych danych poprzez naciśnięcie przycisku "Zaloguj".  |P1|
 | F3 | Funkcjonalne | Logowanie | Walidacja logowania - nazwa użytkownika| Jeśli użytkownik podczas wypełniania formularza logowania poda nazwę użytkownika nie istniejącego w bazie danych system wyświetli informację o tym pod formularzem po naciśnięciu przycisku "Zaloguj się" w postaci tekstu "Nieprawidłowa nazwa użytkownika" pod polem "Nazwa". | P1 |
 | F4 | Funkcjonalne |Logowanie| Walidacja logowania - hasło | Jeśli użytkownik podczas wypełniania formularza logowania poda nieprawidłowe hasło dla danego użytkownika system wyświetli informację o tym pod formularzem po naciśnięciu przycisku "Zaloguj się" w postaci tekstu "Nieprawidłowe hasło" zapisanego pod polem "Hasło".| P1 |
-| F5 | Funkcjonalne | Logowanie | Przekierowanie po logowaniu |Po poprawnym wypełnieniu formularza logowania przez użytkownika i zatwierdzeniu danych poprzez kliknięcie przycisku "Zaloguj" znajdującego się pod formularzem system przekierowuje do widoku "Zamówienia". | P1 |
+| F5 | Funkcjonalne | Logowanie | Przekierowanie po logowaniu |Po poprawnym wypełnieniu formularza logowania i zatwierdzeniu danych poprzez kliknięcie przycisku "Zaloguj" znajdującego się pod formularzem system przekierowuje do widoku "Zamówienia". | P1 |
 | F6 | Funkcjonalne | Menu | Dostępność menu bocznego | Przycisk hamburger menu odpowiadający za wyświetlenie menu bocznego jest dostępny w każdym widoku widocznym dla użytkownika zalogowanego i znajduje się po lewej stronie górnego panelu aplikacji.| P1 |
-| F7 | Funkcjonalne | Menu | Wyświetlenie bocznego menu | Użytkownik poprzez naciśnięcie przycisku hamburger menu znajdującego się w lewym górnym rogu aplikacji otwiera panel menu wyświetlający się po lewej stronie aplikacji i zakrywający 75% szerokości strony oraz 100% jej wysokości. | P1 |
+| F7 | Funkcjonalne | Menu | Wyświetlenie bocznego menu | Użytkownik poprzez naciśnięcie przycisku hamburger menu znajdującego się w lewym górnym rogu aplikacji otwiera panel menu wyświetlający się po lewej stronie aplikacji. | P1 |
 | F8 | Funkcjonalne | Menu | Zawartość bocznego menu | Poprzez naciśnięcie na jedną z zakładek znajdującego się w bocznym menu: "Zamówienia" oraz "Wyloguj się" użytkownik zostaje odpowiednio przekierowany do widoku "Zamówienia", lub zostaje wylogowany i przekierowany do widoku "Strona główna". | P1 |
-| F9 | Funkcjonalne | Widok | Górny panel aplikacji  | Górny panel aplikacji jest widoczny dla użytkowników znajdujących się w każdym widoku dostępnym dla zalogowanych użytkowników i zawiera wyśrodkowaną nazwę danego widoku oraz w lewym rogu ikonę hamburger menu.| P1 |
-| F10 | Funkcjonalne | Widok | Zamówienia | System wyświetla widok "Zamówienia" składający się z wyśrodkowanych elementów wyświetlonych od góry w kolejności: pole "Wyszukaj", przycisk "Dodaj" oraz listy zawierającej wszystkie zamówienia. Po lewej stronie bezpośrednio nad listą zamieszczony jest przycisk z ikoną sortowania, a po prawej przycisk z ikoną filtrowania.   | P1 |
+| F9 | Funkcjonalne | Widok | Górny panel aplikacji  | Górny panel aplikacji jest widoczny dla użytkowników znajdujących się w każdym widoku dostępnym dla zalogowanych użytkowników i zawiera nazwę danego widoku oraz w ikonę menu.| P1 |
+| F10 | Funkcjonalne | Widok | Zamówienia | System wyświetla widok "Zamówienia" składający się z wyśrodkowanych elementów wyświetlonych od góry w kolejności: pole "Wyszukaj", przycisk "Dodaj" oraz listy zawierającej wszystkie zamówienia. Po lewej stronie bezpośrednio nad listą zamieszczony jest przycisk z ikoną filtrowania, a po prawej przycisk z ikoną sortowania.   | P1 |
 | F11 | Funkcjonalne | Zamówienia | Lista | System wyświetla listę domyślnie posortowaną od najnowszego do najstarszego. Z poziomu listy widoczne jest po lewej stronie wiersza: status zamówienia, na środku wiersza: Imię i nazwisko klienta, rodzaj dekoracji okiennej, data złożenia zamówienia (kolejno pod sobą), po prawej stronie wiersza ikona kosza, oczu oraz edycji.| P1 |
-| F12 | Funkcjonalne | Zamówienia | Usuwanie zamowienia | Po naciśnięciu na ikonę kosza (aktywną tylko dla pracownika, który dodał dane zamówienie) znajdującą się przy danym zamówieniu z listy system wyswietla na srodku strony okienko z tekstem: "Czy na pewno chcesz usunac to zamowienie?" i z dwoma przyciskami "Tak, usuń", "Anuluj". Po nacisnieciu na przycisk "Tak, usuń" system przenosi informacje do archiwum (niedostepnego z poziomu aplikacji dla Usera). Po naciśnięciu przycisku "Anuluj" okno się zamyka i wyświetlony zostaje widok "Zamówienia".| P3 |
-| F13 | Funkcjonalne | Zamówienia | Szczegóły zamówienia | Po naciśnięciu na ikonę oka znajdującą się przy danym zamówieniu z listy użytkownik zostaje przekierowany na stronę zawierającą szczegóły danego zamówienia - dane z formularza wyświetlone są jako nieedytowalny tekst w kolejności zgodnej z tą z formularza. Ilość wyświetlonych danych zależy od statusu zamówienia.  | P2 |
+| F12 | Funkcjonalne | Zamówienia | Usuwanie zamowienia | Po naciśnięciu na ikonę kosza (aktywną tylko dla pracownika, który dodał dane zamówienie) znajdującą się przy danym zamówieniu z listy system wyświetla na środku strony okienko z tekstem: "Czy na pewno chcesz usunąć to zamówienie?" i z dwoma przyciskami "Tak, usuń", "Anuluj". Po naciśnięciu na przycisk "Tak, usuń" system usuwa zamówienie z listy. Po naciśnięciu przycisku "Anuluj" okno się zamyka i wyświetlony zostaje widok "Zamówienia".| P3 |
+| F13 | Funkcjonalne | Zamówienia | Szczegóły zamówienia | Po naciśnięciu na ikonę oka znajdującą się przy danym zamówieniu z listy użytkownik zostaje przekierowany na stronę zawierającą szczegóły danego zamówienia - dane z formularza wyświetlone są jako nieedytowalny tekst w kolejności zgodnej z tą z formularza. Ilość wyświetlonych danych zależna jest od statusu zamówienia.  | P2 |
 | F14 | Funkcjonalne | Zamówienia | Edycja zamowienia | Po naciśnięciu na ikonę edycji w danym wierszu listy zamówień użytkownik zostaje przekierowany do widoku "Edycja zamówienia", w którym może dokonać edycji danych zawartych w danym zamówieniu - wyświetlone zostają w formie edytowalnych pól wszystkie dane wprowadzone o zamówieniu (w zależności do statusu zamówienia), edycji nie podlega data złożenia zamówienia.| P1 |
 | F15 | Funkcjonalne | Zamówienia | Zatwierdzanie edycji| System aktywuje przycisk "Zapisz zmiany" znajdujący się pod formularzem edycji zamówienia jeśli użytkownik wprowadzi zmiany w formularzu.| P1 |
 | F16 | Funkcjonalne | Zamówienia | Zmiana statusu zamówienia | W widoku "Edycja zamówienia" system umożliwia wybranie z listy rozwijanej statusu zamówienia i jego zmianę.| P1 |
 | F17 | Funkcjonalne | Zamówienia | Status "Zebrano wymiary" | Po zmianie statusu zamówienia na "Zebrano wymiary" wyświetlone zostaje pola umożlwiające wpisanie: wysokości okna oraz szerokości okna oraz pole umożliwiające wybór dekoracji okiennej z rozwijanej listy.|P1 |
 | F18 | Funkcjonalne | Zamówienia | Edycja daty każdego etapu zamówienia | W widoku "Edycja zamówienia" po wyborze nowego statusu zamówienia z listy system wyświetla pole do wyboru daty otrzymania danego statusu, która zostaje zapisana poprzez naciśnięciu przycisku "Zapisz edycję" znajdującego się pod formularzem edycji zamówienia. | P1 |
-| F19| Funkcjonalne | Zamówienia | Paginacja listy | Lista wyświetla w jednym czasie 10 zamówień, która można przewijać w pionie, na dole listy pod ostatnim zamówieniem znajduje się panel paginacji zawierający od lewej: znak mniejszosci, numeracje stron (z pogrubieniem aktualnie wyświetlanej strony) zawierającą 5 cyfr, znak większości. | P3 |
-| F20 | Funkcjonalne | Zamówienia | Filtrowanie listy | Po naciśnięciu na ikonę filtrowania nad listą pod tą ikoną wyświetlona zostaje lista z dostępnymi opcjami filtrowania. Po zaznaczeniu przynajmniej jednego pola aktywny staje się przycisk "Filtruj", po którego naciśnięciu wyświetlona zostaje zaktualizowana zgodnie z wybranymi kryteriami lista zamówieńm a lista z opcjami filtrowania zostaje ukryta. |P3|
+| F19| Funkcjonalne | Zamówienia | Paginacja listy | Lista wyświetla w jednym czasie 10 zamówień, które można przewijać w pionie, na dole listy pod ostatnim zamówieniem znajduje się panel paginacji zawierający od lewej: znak mniejszosci, numeracje stron (z pogrubieniem aktualnie wyświetlanej strony) zawierającą 5 cyfr, znak większości. | P3 |
+| F20 | Funkcjonalne | Zamówienia | Filtrowanie listy | Po naciśnięciu na ikonę filtrowania nad listą pod tą ikoną wyświetlona zostaje lista z dostępnymi opcjami filtrowania. Po zaznaczeniu przynajmniej jednego pola aktywny staje się przycisk "Filtruj", po którego naciśnięciu wyświetlona zostaje zaktualizowana zgodnie z wybranymi kryteriami lista zamówień a lista z opcjami filtrowania zostaje ukryta. |P3|
 | F21 | Funkcjonalne | Zamówienia | Sortowanie listy | Po naciśnięciu na ikonę sortowania nad listą pod tą ikoną wyświetlona zostaje lista składająca się z sześciu opcji sortowania do wyboru. Po naciśnięciu na jeden z wierszy wyświetlona zostaje posortowana zgodnie z wybranymi kryteriami lista zamówień, a lista z opcjami sortowania zostaje ukryta.|P3|
 | F22 | Funkcjonalne | Widok | Dodaj  zamówienie | Po naciśnięciu przycisku "Dodaj zamówienie" system przekierowuje użytkownika do widoku o tej samej nazwie, który zawiera formularz nowego zamówienia. | P1 |
-| F23 | Funkcjonalne | Dodaj zamówienie| Formularz nowego zamówienia | Po naciśnięciu przycisku "Dodaj zamówienie" system przekierowuje użytkownika do widoku o tej samej nazwie, który zawiera formularz nowego zamówienia składający się z następujacych pól: Imię i nazwisko klienta, miejscowość, ulica, kod pocztowy, numer budynku/mieszkania, numer telefonu, data złożenia zamówienia, data pierwszej wizyty, status zamówienia, notatka oraz przycisku "Zapisz" znajdującego się pod formularzem.| P1 |
+| F23 | Funkcjonalne | Dodaj zamówienie| Formularz nowego zamówienia | Systm wyświetla formularz nowego zamówienia składający się z następujacych pól: Imię i nazwisko klienta, miejscowość, ulica, kod pocztowy, numer budynku/mieszkania, numer telefonu, data złożenia zamówienia, data pierwszej wizyty, status zamówienia, notatka oraz przycisku "Zapisz" znajdującego się pod formularzem.| P1 |
 | F24 | Funkcjonalne | Dodaj zamówienie| Walidacja formularza zamówienia |Jeśli użytkownik podczas wypełniania formularza zamówienia poda dane w nieprawidłowym formacie informacja o tym zostanie wyświetlona pod formularzem po naciśnięciu przycisku "Zapisz" w postaci tekstu "Nieprawidłowy format danych" zapisanego czerwoną czcionką bezpośrednio pod błędnie wypełnionym polem.| P1 |
-| F25 | Funkcjonalne | Dodaj zamówienie | Zapisanie zamówienia | Użytkownik poprzez poprawne wypełnienie formularza nowego zamówienia ma możliwość dodania nowego zamówienia realizowanego przez firmę Rolldar, po poprawnym wypełnieniu wszystkich pól i naciśnięciu przycisku "Dodaj" wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie o numerze xxx" (gdzie xxx - jest kolejnym, unikatowym numerem zamowienia, który jest inkrementowany przy dodaniu nowego rekordu). | P1 |
+| F25 | Funkcjonalne | Dodaj zamówienie | Zapisanie zamówienia | Użytkownik poprzez poprawne wypełnienie formularza nowego zamówienia ma możliwość dodania nowego zamówienia realizowanego przez firmę Rolldar, po poprawnym wypełnieniu wszystkich pól i naciśnięciu przycisku "Dodaj" wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie". | P1 |
 | F26 | Funkcjonalne | Zamówienia | Wyszukanie oferty |  Poprzez pasek wyszukiwania znajdujący się w widoku "Zamówienia" użytkownik ma możliwość wyszukania interesującego go zamówienia - wpisując adres, numer telefonu, imię lub nazwisko klienta.| P2 |
 | F27 | Funkcjonalne | Zamówienia | Usuwanie filtru wyszukiwania |  Po naciśnięciu na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania zamówień system usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamówień.| P3 |
 
@@ -176,35 +207,7 @@
 | 25 | Zapisanie zamowienia | Użytkownik jest zalogowany. Użytkownik znajduje się w widoku "Dodaj zamówienie". Użytkownik uzupełnił dane formularza nowego zamówienia danymi w prawidłowym formacie. | 1. Wpisz do formularza nowego zamówienia wymagane dane w prawidłowym formacie. <br> 2. Kliknij przycisk "Zapisz".  | Wyświetlone zostaje okno z tekstem: "Dodano nowe zamówienie o numerze xxx". |
 | 26 | Wyszukanie oferty | Użytkownik jest zalogowany. Użytkownik znajduje się w widoku "Zamówienia". Pasek wyszukiwania zamówień jest widoczny. Na liście zamówień znajdują się co najmniej dwa zamówienia. | 1. Wpisz w pasek wyszukiwania numer telefonu klienta. <br> 2. Zweryfikuj zawartość listy. <br> 3. Powtórz kroki 1-2 zmieniając numer telefonu na: imię klienta, nazwisko klienta, adres klienta.  | Lista zamówień wyświetla tylko zamówienia zawierające daną frazę. |
 | 27 |  Usuwanie filtru wyszukiwania | Użytkownik jest zalogowany. Użytkownik znajduje się w widoku "Zamówienia". Pasek wyszukiwania zamówień jest widoczny.| 1. Wpisz tekst w pasku wyszukiwania. <br> 2. Naciśnj na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania. | System usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamówień.|
-# Słownik pojęć
 
-<ins> <b> Widok </b> </ins>
-
-Jest to warstwa interfejsu użytkownika (UI) odpowiedzialna za wyświetlanie informacji i umożliwianie interakcji z użytkownikiem na ekranie urządzenia mobilnego, takiego jak smartphone czy tablet. Widok stanowi reprezentacje konkretne złożenie elementó, które tworzą interfejs użytkownika. Użytkownik może przemieszczać się pomiędzy widokami.
-
-<ins> <b> Zamówienie </b></ins>
-
-Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia dekoracji okiennej wraz z usługą jej montażu lub serwisu. W rach Zamówienia w aplikacji Rolldar przechowywane są następujące dane:
-- Imię i nazwisko klienta
-- Adres wykonania zlecenia
-- Numer telefonu klienta
-- Obecny status zamówienia. 
-Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
-- Imię i nazwisko pracownika odpowiedzialnego za realizację zlecenia
-- Wysokość oraz szerokość okna (wymiary okna)
-- Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
-
-<ins> <b> System </b></ins>
-
-Wszystkie elementy i powiązania między nimi tworzące aplikację mobilną Rolldar Mobilnie.
-  
-<ins> <b> Klient </b></ins>
-
-Osoba zlecająca realizację zamówienia przez firmę Rolldar.
-
-<ins> <b> Użytkownik </b></ins>
-
-Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dostarczaną w ramach niniejszego projektu.
 
 # Możliwości rozbudowy
 
