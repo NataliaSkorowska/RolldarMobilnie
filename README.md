@@ -52,7 +52,7 @@
 
 | ID | Kategoria | Podkategoria | Nazwa krótka | Opis | Priorytet |
 | ------- | -------|------|------| -----| ----- |
-| NF1 | Niefunkcjonalne | Wydajnościowe | Liczba użytkowników | Jednocześnie ze strony może korzystać 500 osób znajdujących się w różnych lokalizacjach. |P2|
+| NF1 | Niefunkcjonalne | Wydajnościowe | Liczba użytkowników | Jednocześnie z aplikacji może korzystać 500 osób znajdujących się w różnych lokalizacjach. |P2|
 | NF2 | Niefunkcjonalne | Wydajnościowe | Czas reakcji | Maksymalny czas pomiędzy pobudzeniem przez użytkownika a odpowiedzią systemu nie powinien być dłuższy niż 4 sekundy. | P2|
 | NF3 | Niefunkcjonalne | Wydajnościowe	| Czas pracy| Aplikacja powinna być dostępna dla użytkowników 24/7/365 średnio 97% czasu. W ciągu kolejnych 4 lat korzystania z niej. |P1|
 | NF4 | Niefunkcjonalne | Wydajnościowe	| Czas uruchomienia po awarii| W przypadku awarii aplikacja powinna zostać naprawiona w ciągu 5 godzin od pierwszego zgłoszenia niepożądanego zachowania systemu. | P2|
