@@ -147,7 +147,7 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 
 ---
 
-# Architektura systemu
+## Architektura systemu
 
 <b> a. Architektura rozwoju - stos technologiczny </b>
 
@@ -176,7 +176,7 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 
 ---
 
-# Testy
+## Testy
 
 | Lp. | Nazwa | Warunki wstępne| Kroki wykonania | Oczekiwany rezultat |
 | ------------- | ------------- |------|------|-------|
@@ -209,12 +209,12 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 | 27 |  Usuwanie filtru wyszukiwania | Użytkownik jest zalogowany. Użytkownik znajduje się w widoku "Zamówienia". Pasek wyszukiwania zamówień jest widoczny.| 1. Wpisz tekst w pasku wyszukiwania. <br> 2. Naciśnj na ikonę "x" znajdującą się po prawej stronie na pasku wyszukiwania. | System usuwa frazę wpisaną w pasku wyszukiwania i przywraca domyślny widok listy zamówień.|
 
 
-# Możliwości rozbudowy
+## Możliwości rozbudowy
 
 1) Funkcjonalność dodawania zdjęć do zamówienia.
 2) Przechowywanie w ramach oddzielnej zakładki listy klientów z możliwością filtrowania, sortowania i wyszukiwania w ramach tej listy.
 
-# Projekt widoków
+## Projekt widoków
 ![Zrzut ekranu (1773)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/19d49870-e0c1-4eea-ad8c-8ba562a3ee25)
 ![Zrzut ekranu (1774)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/a975e4b3-0af5-4325-9f20-166735f835eb)
 
