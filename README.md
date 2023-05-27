@@ -216,8 +216,7 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 
 ## Projekt widoków
 
-![Zrzut ekranu (1773)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/19d49870-e0c1-4eea-ad8c-8ba562a3ee25)
+![Zrzut ekranu (1828)](https://github.com/NataliaSkorowska/RolldarMobilnie/assets/56688592/b219f2c7-5864-47d8-b1e9-c2b9f8dece99)
+![Zrzut ekranu (1829)](https://github.com/NataliaSkorowska/RolldarMobilnie/assets/56688592/708c4b13-995f-4181-98da-9f6246fa823c)
+![Zrzut ekranu (1830)](https://github.com/NataliaSkorowska/RolldarMobilnie/assets/56688592/f6752a0c-c225-44ba-9d8d-ddcc03bad086)
 
-![Zrzut ekranu (1774)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/a975e4b3-0af5-4325-9f20-166735f835eb)
-
-![Zrzut ekranu (1776)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/989f4119-4947-4a40-9f5e-dea7eae68d50)
