@@ -215,7 +215,9 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 2) Przechowywanie w ramach oddzielnej zakładki listy klientów z możliwością filtrowania, sortowania i wyszukiwania w ramach tej listy.
 
 ## Projekt widoków
+
 ![Zrzut ekranu (1773)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/19d49870-e0c1-4eea-ad8c-8ba562a3ee25)
+
 ![Zrzut ekranu (1774)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/a975e4b3-0af5-4325-9f20-166735f835eb)
 
 ![Zrzut ekranu (1776)](https://github.com/NataliaSkorowska/RolldarAplikacjaMobilna/assets/56688592/989f4119-4947-4a40-9f5e-dea7eae68d50)
