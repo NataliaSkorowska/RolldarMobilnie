@@ -45,7 +45,7 @@
 <b> b. Licencja: </b> Uznanie autorstwa - użycie niekomercyjne 4.0
 
 ---
-# Słownik pojęć
+## Słownik pojęć
 
 <ins> <b> Widok </b> </ins>
 
