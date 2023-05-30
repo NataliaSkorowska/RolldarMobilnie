@@ -58,7 +58,7 @@ Zlecenie zawarte przez umowę ustną obejmujące wszystkie etapy dostarczenia de
 - Adres wykonania zlecenia
 - Numer telefonu klienta
 - Obecny status zamówienia. 
-Do wyboru 6 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
+Do wyboru 7 statusów: "Nowy", "Wymiary zebrane", "Oferta wysłana", "Oferta zaakceptowana", "W realizacji", "Usługa zrealizowana", "Usługa zakończona"
 - Imię i nazwisko pracownika odpowiedzialnego za realizację zlecenia
 - Wysokość oraz szerokość okna (wymiary okna)
 - Rodzaj dekoracji okiennej dostarczonej w ramach zamówienia.
