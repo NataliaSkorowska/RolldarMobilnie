@@ -154,6 +154,7 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 | ID | Nazwa | Zastosowanie | Wersja |
 | ------- | -------|------|------| 
 | 1 | Ionic | Framework aplikacji, struktura projektu | 7.5.0 |
+| 2 | Typescript | Język programowania | 5.0.4 |
 | 2 | Angular | Framework aplikacji | 16.0.2 |
 | 3 | AngularFire | Komunikacja aplikacji z bazą danych (przechowywanie danych, logowanie) | 7.5.0 |
 | 4 | HTML5 | Struktura aplikacji |  - |
