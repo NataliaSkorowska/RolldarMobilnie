@@ -42,7 +42,7 @@
 
 <b> a. Autor: </b> Natalia Skórowska
 
-<b> b. Licencja: </b> Uznanie autorstwa - użycie niekomercyjne 4.0
+<b> b. Licencja: </b> Creative Commons - uznanie autorstwa - użycie niekomercyjne 4.0
 
 ---
 ## Słownik pojęć
