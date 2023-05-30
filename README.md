@@ -155,13 +155,13 @@ Pracownik firmy Rolldar obsługujący aplikację mobilną Rolldar Mobilnie dosta
 | ------- | -------|------|------| 
 | 1 | Ionic | Framework aplikacji, struktura projektu | 7.5.0 |
 | 2 | Typescript | Język programowania | 5.0.4 |
-| 2 | Angular | Framework aplikacji | 16.0.2 |
-| 3 | AngularFire | Komunikacja aplikacji z bazą danych (przechowywanie danych, logowanie) | 7.5.0 |
-| 4 | HTML5 | Struktura aplikacji |  - |
-| 5 | Figma | Stworzenie prototypu aplikacji |  107.0.0 |
-| 6 | Visual Studio Code | Środowisko programistyczne | 17.5.5 |
-| 7 | Git | System kontroli wersji | 2.40.1 |
-| 8 | GitHub | Przechowywanie repozytorium w chmurze | 3.8.3 |
+| 3 | Angular | Framework aplikacji | 16.0.2 |
+| 4 | AngularFire | Komunikacja aplikacji z bazą danych (przechowywanie danych, logowanie) | 7.5.0 |
+| 5 | HTML5 | Struktura aplikacji |  - |
+| 6 | Figma | Stworzenie prototypu aplikacji |  107.0.0 |
+| 7 | Visual Studio Code | Środowisko programistyczne | 17.5.5 |
+| 8 | Git | System kontroli wersji | 2.40.1 |
+| 9 | GitHub | Przechowywanie repozytorium w chmurze | 3.8.3 |
 
 <b> b. Architektura uruchomieniowa - stos technologiczny </b>
 
